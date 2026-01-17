@@ -1,0 +1,16 @@
+{
+  "name": "redblue-workflows",
+  "owner": {
+    "name": "RedBlue AI",
+    "email": "support@redblue.ai",
+    "url": "https://github.com/RedBlueAI"
+  },
+  "plugins": [
+    {
+      "name": "claude-workflow",
+      "source": ".",
+      "description": "Set up and manage Claude Workflow System in your projects - provides structured development workflows, AI agents, and CI/CD integration",
+      "version": "1.0.0"
+    }
+  ]
+}
