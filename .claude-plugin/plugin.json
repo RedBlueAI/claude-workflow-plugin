@@ -1,7 +1,7 @@
 {
   "name": "claude-workflow",
   "description": "Set up and manage Claude Workflow System - structured development workflows, agents, and CI/CD integration for any project",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "RedBlue AI"
   },
