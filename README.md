@@ -1,8 +1,8 @@
 # Claude Workflow Plugin
 
-A Claude Code plugin that sets up and manages the Claude Workflow System in your projects. This plugin acts as an installer - it fetches the workflow system from GitHub and configures it in your target project.
+![Plugin](https://img.shields.io/badge/Plugin-1.1.0-green) ![Workflow System](https://img.shields.io/badge/Workflow_System-1.2.0-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-**Current Version: 1.1.0**
+A Claude Code plugin that sets up and manages the Claude Workflow System in your projects. This plugin acts as an installer - it fetches the workflow system from GitHub and configures it in your target project.
 
 ## Table of Contents
 
