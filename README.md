@@ -387,9 +387,9 @@ The plugin checks for updates by fetching the remote `plugin.json`:
 ### What Gets Copied
 
 **Always copied (base layer)**:
-- 23 commands (StartSession, EndSession, ImplementFeature, PRDIntake, CyclePlan, etc.)
+- 29 commands (StartSession, EndSession, ImplementFeature, PRDIntake, CyclePlan, etc.)
 - 10 agents (code-writer, reviewer, prd-validator, cycle-planner, etc.)
-- 18 tasks (session-management, prd-validation, cycle-planning, etc.)
+- 20 tasks (session-management, prd-validation, cycle-planning, etc.)
 - 2 GitHub workflows (code-review, security-review)
 - Project templates and directory structure
 
