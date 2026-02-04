@@ -2,6 +2,15 @@
 
 All notable changes to the Claude Workflow Plugin will be documented in this file.
 
+## [1.1.0] - 2026-02-04 (Workflow System 2.0.0 compatibility)
+
+### Workflow System Update
+- **Compatible with Workflow System 2.0.0**: Running `/claude-workflow:setup` or `/claude-workflow:update` now installs the v2.0.0 base layer which includes the full PRD-to-Cycle planning workflow
+- **New base layer content**: 23 commands (was 15), 10 agents (was 6), 18 tasks (was 12), 5 schemas (was 3)
+- **New planning commands**: PRDIntake, PRDValidate, PRDEnrich, PRDFeasibility, PRDSequence, Breakdown, CyclePlan, CycleCommit, CycleStatus, CycleSummary, CycleRetro
+- **New planning agents**: prd-validator, technical-analyst, cycle-planner, status-aggregator
+- **Existing installations**: Run `/claude-workflow:update` to get the new planning workflow components
+
 ## [1.1.0] - 2026-01-17
 
 ### Added

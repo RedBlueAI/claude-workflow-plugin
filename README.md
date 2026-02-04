@@ -1,6 +1,6 @@
 # Claude Workflow Plugin
 
-![Plugin](https://img.shields.io/badge/Plugin-1.1.0-green) ![Workflow System](https://img.shields.io/badge/Workflow_System-1.2.0-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Plugin](https://img.shields.io/badge/Plugin-1.1.0-green) ![Workflow System](https://img.shields.io/badge/Workflow_System-2.0.0-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 A Claude Code plugin that sets up and manages the Claude Workflow System in your projects. This plugin acts as an installer - it fetches the workflow system from GitHub and configures it in your target project.
 
@@ -387,9 +387,9 @@ The plugin checks for updates by fetching the remote `plugin.json`:
 ### What Gets Copied
 
 **Always copied (base layer)**:
-- 15 commands (StartSession, EndSession, ImplementFeature, CreateVariant, SubmitVariant, etc.)
-- 6 agents (code-writer, reviewer, test-planner, etc.)
-- 12 tasks (session-management, ci-integration, variant-management, etc.)
+- 23 commands (StartSession, EndSession, ImplementFeature, PRDIntake, CyclePlan, etc.)
+- 10 agents (code-writer, reviewer, prd-validator, cycle-planner, etc.)
+- 18 tasks (session-management, prd-validation, cycle-planning, etc.)
 - 2 GitHub workflows (code-review, security-review)
 - Project templates and directory structure
 
